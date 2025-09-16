@@ -1,0 +1,11 @@
+agent:
+  name: sokoban_agent
+  params:
+    system_prompt: "You are a Sokoban solver..."
+    action_regex: "Action:\\s*(.*?)(?=\\n|$)"
+env:
+  target: sokoban_env
+  params:
+    env_id: "Sokoban-v0"
+
+

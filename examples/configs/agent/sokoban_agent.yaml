@@ -1,0 +1,6 @@
+name: sokoban_agent
+params:
+  system_prompt: "You are a Sokoban solver..."
+  action_regex: "Action:\\s*(.*?)(?=\\n|$)"
+
+

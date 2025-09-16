@@ -1,0 +1,5 @@
+target: sokoban_env
+params:
+  env_id: "Sokoban-v0"
+
+

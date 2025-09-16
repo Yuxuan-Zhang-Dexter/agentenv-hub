@@ -1,0 +1,9 @@
+name: sokoban_agent
+format: react
+params:
+  system_prompt: |
+    You are a Sokoban solver...
+  action_regex: "Action:\\s*(.*?)(?=\\n|$)"
+  mask_invalid_actions: true
+
+
